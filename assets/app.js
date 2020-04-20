@@ -11,7 +11,7 @@ todoList.addEventListener('click', deleteCheck);
 function addTodo(event) {
     //Prevents Form From Submitting
     event.preventDefault();
-    //todo Div
+    //TO DO Div
     const todoDiv = document.createElement("div");
     todoDiv.classList.add('todo');
     //Creat LI
@@ -19,12 +19,12 @@ function addTodo(event) {
     newTodo.innerText = todoInput.value;
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
-    //CHECK MARK BUTTON
+    //CHECK-MARK BUTTON
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class="fas fa-check"></i>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
-    //CHECK TRASH BUTTON
+    //CHECK-TRASH BUTTON
     const trashButton = document.createElement('button');
     trashButton.innerHTML = '<i class="fas fa-trash"></i>';
     trashButton.classList.add('trash-btn');
@@ -35,14 +35,14 @@ function addTodo(event) {
     todoInput.value = "";
 }
 
-function deleteCheck(e) {
-    const item = e.target;
-    //delete Todo
+function deleteCheck(event) {
+    const item = event.target;
+    //Delete Todo
     if (item.classList[0] === "trash-btn") {
         const todo = item.parentElement;
         //Animation
         todo.classList.add('fall');
-        todo.addEventListener('transitionened', function() {
+        todo.addEventListener('transitionend', function() {
             todo.remove();
         });
     }
