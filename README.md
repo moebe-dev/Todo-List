@@ -8,6 +8,4 @@ https://cdnjs.com/libraries/font-awesome
 
 https://fontawesome.com/icons/adjust?style=solid
 
-42:00
-
 #Muhammad Ali
