@@ -16,16 +16,14 @@ header {
     color: whitesmoke;
 }
 
-header,
-form {
+header, form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-form input,
-form button {
+form input, form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
@@ -70,8 +68,7 @@ form button:hover {
     flex: 1;
 }
 
-.trash-btn,
-.complete-btn {
+.trash-btn, .complete-btn {
     background: #df5d35;
     color: white;
     border: none;
@@ -88,8 +85,7 @@ form button:hover {
     padding: 0rem 0.6rem;
 }
 
-.fa-trash,
-.fa-check {
+.fa-trash, .fa-check {
     pointer-events: none;
 }
 

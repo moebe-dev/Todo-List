@@ -1,11 +1,28 @@
-# Todo-List
+## Todo-List
+A small "Todo List" project in vanilla Javascript which includes Local Storage, HTML, and CSS. Please check out the launched app linked above!
 
-Google color picker - HEX
 
-https://fonts.google.com/specimen/Source+Sans+Pro?preview.text=Then+came+the+night+of+the+first+falling+star.&preview.text_type=custom&query=Source+Sans+Pro&sidebar.open&selection.family=Source+Sans+Pro
+## Getting Started:
+Download the "images" folder to visualize each command given.
+This will allow you to better see how the application works.
 
-https://cdnjs.com/libraries/font-awesome
 
-https://fontawesome.com/icons/adjust?style=solid
+## Actions:
+* Whenever a user submits a Todo task, your app will display the task in the middle of the screen waiting to be completed. you can also filter the tasks from the drop-down menu.
 
-#Muhammad Ali
+* Each task can be given a tag like deleted, completed, or left unchecked waiting to be done.
+
+* The app will store every input given in local storage in your browser.
+
+![Screen shot](/images/todo.png)
+
+
+## Technologies & Concepts Used:
+* HTML5
+* CSS3
+* Javascript
+* Local Storage 
+* CDN - HEX
+
+
+# Made By Muhammad Ali
